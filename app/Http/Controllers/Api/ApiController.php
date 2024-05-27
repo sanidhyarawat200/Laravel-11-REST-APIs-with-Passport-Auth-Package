@@ -64,7 +64,7 @@ class ApiController extends Controller
       $userdata = auth()->user();
       return response()->json([
         "status" => true,
-        "message" => "Profile information",
+        "message" => "This is profile info",
         "data" => $userdata
       ]);
     }
